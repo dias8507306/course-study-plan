@@ -44,9 +44,9 @@ All data in this repository is randomly generated; brand names are anonymized.
 The course name («Орбита»), brand (`EduApp`, `eduapp.example.com`), contacts and staff names are fictional;
 public exam facts (NIS / BIL, eGov.kz, bilemtihan.kz) are kept for realism.
 
-## Қысқаша (KZ)
+## Кратко (RU)
 
-НЗМ мен БИЛ-ге дайындық бойынша ата-аналардың WhatsApp топтарына арналған хабарламалар жоспары.
-Құрастыру қажет емес: таза HTML, CSS және JavaScript, барлық мәтін `data.js` файлында.
-Қазақ және орыс тобы бөлек, мәтінді бір батырмамен көшіріп, «Жіберілді» деп белгілеуге болады.
-Іске қосу: `index.html` файлын браузерде ашыңыз. Бренд пен байланыс деректері ойдан алынған.
+План сообщений для родительских WhatsApp-групп по подготовке к НИШ и БИЛ.
+Сборка не нужна: чистые HTML, CSS и JavaScript, весь текст — в `data.js`.
+Казахская и русская группы раздельно; текст копируется одной кнопкой и отмечается как «Отправлено».
+Запуск: откройте `index.html` в браузере. Бренд и контакты вымышлены.
