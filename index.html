@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#ffffff">
+  <title>Орбита: топқа хабарламалар</title>
+  <link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-row">
+      <div class="brand">
+        <span class="logo" aria-hidden="true">EA</span>
+        <div>
+          <h1>Орбита · НЗМ • БИЛ</h1>
+          <p>WhatsApp топтарына хабарламалар жоспары</p>
+        </div>
+      </div>
+      <div class="switch" role="tablist" aria-label="Топ">
+        <button type="button" role="tab" data-lang="kk">Қазақ тобы</button>
+        <button type="button" role="tab" data-lang="ru">Орыс тобы</button>
+      </div>
+    </div>
+    <nav class="wrap days" aria-label="Күндер">
+      <div class="days-inner" id="days"></div>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div id="test-banner" class="test-banner" hidden></div>
+
+    <section class="day-head" aria-live="polite">
+      <button type="button" class="nav-btn" id="prev" aria-label="Алдыңғы күн">‹</button>
+      <div class="day-title">
+        <h2 id="day-title"></h2>
+        <p id="day-sub"></p>
+      </div>
+      <button type="button" class="nav-btn" id="next" aria-label="Келесі күн">›</button>
+    </section>
+
+    <div id="day-view"></div>
+
+    <details class="panel">
+      <summary>Топтардың атауы мен сипаттамасы</summary>
+      <div id="group-info"></div>
+    </details>
+
+    <details class="panel">
+      <summary>Нақтылау керек</summary>
+      <ol id="questions" class="plain-list"></ol>
+    </details>
+
+    <details class="panel">
+      <summary>Жұмыс тәртібі</summary>
+      <ul class="plain-list">
+        <li>Топта тек НЗМ мен БИЛ тақырыбы. Олимпиада, вебинар, челлендж туралы хабарламалар Telegram арнада қалады.</li>
+        <li>Аптасына 2–3 хабарлама, 10:00–20:00 аралығында. Түнде және демалыс күні таңертең жібермейміз.</li>
+        <li>Екі бөлек топ: қазақ тобы және орыс тобы. Бір хабарлама екі топқа бір күні жіберіледі, әр топқа тек өз тілінде. Жоғарыдағы батырмамен топты таңдаңыз, «Жіберілді» белгісі әр топқа бөлек қойылады.</li>
+        <li>Орыс тобында курстың қазақ тілінде екенін ашық айтамыз: ол қазақ мектебінде оқитын балаларға арналған.</li>
+        <li>Сары түспен белгіленген жерлерді жібермес бұрын толтырыңыз немесе өшіріңіз.</li>
+        <li>Бірінші жол — мәтіндік тақырып, сұрақ емес. Сұрақпен басталған мәтін жиі «керек емес» деген жауап алады.</li>
+        <li>Сату тәртібі: алдымен НЗМ мен БИЛ туралы ақпарат, сосын «неге қиын» деп түсіндіреміз, содан кейін ғана курсты ұсынып, EduApp-тағы курс сілтемесін береміз. Бағасын топта жазбаймыз: ата-ана оны сілтемені ашқанда көреді.</li>
+        <li>15% жеңілдік eduapp.example.com-та төлем кезінде көрінеді. Оның мерзімін айтпаймыз: «мерзімсіз» деп те, ойдан мерзім қойып та жазбаймыз.</li>
+        <li>4–5-сынып ата-аналарына кіші сыныптарға арналған курсты топта емес, менеджер жеке ұсынады.</li>
+        <li>Мерзім мен орын саны тек нақты болса айтылады. «Тек бүгін» сияқты жасанды мерзім және ойдан жазылған пікір жоқ.</li>
+        <li>НЗМ мен БИЛ мерзімдерін тек ресми дереккөзден аламыз (nis.edu.kz, eGov, лицейдің сайты).</li>
+        <li>Аптаның есебі сауалнама етіп жіберіледі, жауабы мен шешуі келесі күні.</li>
+        <li>Техникалық қолдау: 8 700 000 00 00, дүйсенбі–сенбі, 09:00–18:00.</li>
+      </ul>
+    </details>
+
+    <p class="foot">Жоспар 4 қараша – 28 желтоқсан 2026. «Жіберілді» белгісі осы құрылғыда сақталады. Пернетақтада ← және → батырмалары күн ауыстырады.</p>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js?v=9"></script>
+  <script src="app.js?v=4"></script>
+</body>
+</html>

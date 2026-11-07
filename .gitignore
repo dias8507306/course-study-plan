@@ -1,0 +1,10 @@
+.vercel
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+*.db
+__pycache__/
+.venv/
+*.log
